@@ -1,0 +1,7 @@
+//Bussines
+email: sb-2pmb626120463@business.example.com
+PASSWORD: x%d#&3Cy
+
+//Personal
+email: sb-ehwki26117333@personal.example.com
+Password: 9sVu&tq-

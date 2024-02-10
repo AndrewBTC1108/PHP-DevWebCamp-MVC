@@ -1,0 +1,33 @@
+-crear el package.json, se escribe en la terminal npm init la cual nos hara unas preguntas para llenar.
+
+el archivo package.json sirve para ejecutar comandos de npm pero tambien para instalar lo que se conoce como dependencias de npm
+npm es una libreria muy grande de dependencias.
+
+para instalar una dependencia de desarrollo que es local se debe escribir el siguiente comando 
+npm install sass --save-dev
+
+se nos añadira automaticamente una carpeta llamada node-modules y el package lock
+el package lock son las dependencias de las mimsas dependencias de sass la cual las necesita para poder trabajar ccorrectamente.
+
+la carpeta de todas las dependencias de node-modules se puede eliminar para asi liberar mas espacio, y se puede recuperar sin ningun problema
+solo es escribir el siguiente comando para recuperar, npm i
+
+para instalar las dependencias del archivo composer.json digitar:  composer install
+cuando hagamos cambios en el composer.json debemos escribir en el terminal: composer update
+
+PHP MVC 
+para iniciar una terminal desde la carpeta public:  php -S localhost:3000
+composer install
+npm install
+
+Instalar webpack-stream
+npm install webpack-stream
+
+luego de haber instalado webpack-stream y configurarlo en el gulpfile procedemos a instaladr swiper,
+al instalar webpack se debe unificar todo en un solo app.js
+
+npm install swiper
+
+Para hacer enterder a webpack la sintaxis de css se debe instalar una dependencia
+"loaders"
+npm i -D css-loader style-loader
